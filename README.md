@@ -9,9 +9,19 @@
 <br> Durante sua jornada ele encontraria diversos perigos, e teria que lutar contra eles, quando ele lutasse ele se machucaria um pouco ou estaria cansado da batalha por isso sua vida é diminuida em 1.</br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/115949326/231917174-0be86c3c-6e2e-42ec-be3f-217c689d6a42.png" width=250px></img>
+<img src="https://user-images.githubusercontent.com/115949326/231917684-378a7f02-0465-49c5-bb9d-c6ee5060ab9e.png" width=250px></img>
+<img src="https://user-images.githubusercontent.com/115949326/231918262-b151ead4-1553-4f6c-979b-7375db0cb58d.png" width=250px></img>
 </div>
 
-<br>Para o caminhamento também foi usado um método de sombra, em que a posição para a qual ele quer ir seja verificada, e caso seja válida a sombra se torna o player.</br>
+<br > Neste caso, foi verificado se o player poderia ir para a sua direita, quando foi retornado que sim ele foi e tomou 1 de dano, pois encontrou um perigo</br>
+
+<br> Como citado acima, para o caminhamento ser realizado é necessário uma verificação, e confirmação, para isso foi usado um método de sombra, em que a posição para a qual ele quer ir seja verificada, e caso seja válida a sombra se torna o player.</br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/115949326/231920298-4f62f941-d1b2-443f-86dc-4e35d0fa810b.png" width=250px></img>
+<img src="https://user-images.githubusercontent.com/115949326/231920645-83dc12f9-0200-4b38-b22f-7a97c6aab319.png" width=250px></img>
+</div>
+<br>Nesse caso, ele tentou ir para o lugar em que a sombra dele estava, porém, aquele lugar era uma parede então foi retornado uma resposta negativa para ele, dizendo para procurar outro caminho.</br>
+
 # Funcionamento
 <br> Agora quanto ao funcionamento, foi feito de forma que possam ser jogadas matrizes de grandes portes, pois ele lê uma por uma e depois salva em um arquivo que será criado durante a execução do código, quando ele precisa verificar se poderá passar de matriz, é chamada uma matriz auxiliar para que seja possivel verificar sem mudar o arquivo em que está a matriz atual, se for possivel, tal função retornará positivo para a conferência, caso contrário negativo, e o arquivo onde está a matriz atual permanecerá o mesmo.</br>
 # Funções
