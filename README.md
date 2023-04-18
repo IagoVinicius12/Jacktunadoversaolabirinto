@@ -37,3 +37,14 @@
 - verificandosenaoconseguiuandar(): Esta função foi feita para resolver o caso de que o player estivesse preso, com todas as posições à sua volta como parede, funciona com um vetor de booleanos assim que o vetor estiver totalmente true e outra variavél que verifica que ele permaneceu na mesma posição, o programa será encerrados.
 # Conclusão
 A implementação deste algoritmo foi muito interessando, se eu fosse refazê-lo, com toda certeza faria de forma diferente desde o começo, mas acho que é valido manter a primeira versão do raciocínio e depois voltar nesse exercicio para fazer de uma outra forma, desta vez não me preocupando muito em quando acabar, mas sim em tentar resolve-lo da melhor maneira possivel, e que tenha algum benefício para o meu crescimento.
+
+# Compilação e Execução
+
+Esse pequeno exemplo possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
+
+
+| Comando                |  Função                                                                                           |                     
+| -----------------------| ------------------------------------------------------------------------------------------------- |
+|  `make clean`          | Apaga a última compilação realizada contida na pasta build                                        |
+|  `make`                | Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build           |
+|  `make run`            | Executa o programa da pasta build após a realização da compilação                                 |
