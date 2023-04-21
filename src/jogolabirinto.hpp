@@ -21,18 +21,16 @@ public:
     short int getvida();
     void setbag(short int bag);
     short int getbag();
-    void setverificadorehzero(bool verificadorehzero);
-    bool getverificadorehzero();
     void lendolabirinto();
     void andando();
     bool consertandobug(string a);
     bool naoehperigo(string a);
     bool ehparede(string a);
-    short int andando2(short int contador_de_passos);
+    void andando2(short int rand);
     bool andando3();
-    bool verificandovetor();
     void fazendo_arquivos(short int cont);
     short int casasnaovisitadas();
+    bool verificandosenaoconseguiuandar();
 };
 #endif
 
