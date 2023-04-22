@@ -21,6 +21,10 @@
 <img src="https://user-images.githubusercontent.com/115949326/231920645-83dc12f9-0200-4b38-b22f-7a97c6aab319.png" width=250px></img>
 </div>
 <br>Nesse caso, ele tentou ir para o lugar em que a sombra dele estava, porém, aquele lugar era uma parede então foi retornado uma resposta negativa para ele, dizendo para procurar outro caminho.</br>
+<br>Exemplo de input e output:</br>
+<div align="center"><img src="https://user-images.githubusercontent.com/115949326/233801188-bce37403-13a3-41d0-8763-2f43c216e8f3.png" width=150px></img>
+<img src="https://user-images.githubusercontent.com/115949326/233801266-cd0ac111-6ffa-4aed-b444-7bd64e2440f8.png" width=144px></img>
+</div>
 
 # Funcionamento
 <br> Agora quanto ao funcionamento, foi feito de forma que possam ser jogadas matrizes de grandes portes, pois ele lê uma por uma e depois salva em um arquivo que será criado durante a execução do código, quando ele precisa verificar se poderá passar de matriz, é chamada uma matriz auxiliar para que seja possivel verificar sem mudar o arquivo em que está a matriz atual, se for possivel, tal função retornará positivo para a conferência, caso contrário negativo, e o arquivo onde está a matriz atual permanecerá o mesmo.</br>
