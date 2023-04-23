@@ -21,7 +21,8 @@
 <img src="https://user-images.githubusercontent.com/115949326/231920645-83dc12f9-0200-4b38-b22f-7a97c6aab319.png" width=250px></img>
 </div>
 <br>Nesse caso, ele tentou ir para o lugar em que a sombra dele estava, porém, aquele lugar era uma parede então foi retornado uma resposta negativa para ele, dizendo para procurar outro caminho.</br>
-<br>Exemplo de input e output:</br>
+
+# Exemplo de input e output:
 <div align="center"><img src="https://user-images.githubusercontent.com/115949326/233801188-bce37403-13a3-41d0-8763-2f43c216e8f3.png" width=150px></img>
 <img src="https://user-images.githubusercontent.com/115949326/233801266-cd0ac111-6ffa-4aed-b444-7bd64e2440f8.png" width=144px></img>
 </div>
